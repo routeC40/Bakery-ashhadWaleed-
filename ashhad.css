@@ -1,0 +1,378 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#home {
+    background-image: url(./img/images/drew-coffman-1872.jpg);
+    background-position: center center;
+    background-size: 100% 100%;
+    height: 100vh;
+}
+
+#home .navbar {
+    background-color: rgba(0,0,0,.5);
+}
+
+.navbar .nav-image {
+    width: 30%;
+    float: left;
+}
+
+.navbar .nav-image img {
+    width: 40%;
+    margin: 15px 30px;
+}
+
+.navbar .nav-text {
+    width: 50%;
+    float: right;
+    margin: 15px 10px;
+}
+
+.navbar .nav-text ul {
+    list-style: none;
+}
+
+.nav-text ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+
+.nav-text ul li {
+    float: left;
+    margin: 16px 20px;
+}
+
+#home .home-content {
+    text-align: center;
+    
+}
+
+.home-content p {
+    font-size: 24px;
+    color: #ccc;
+    margin-bottom: 40px;
+    font-family: sans-serif, monospace;
+}
+
+.home-content .para1 {
+    padding-top: 90px;
+}
+
+.home-content h1 {
+    color: #fff;
+    font-size: 70px;
+    margin-bottom: 65px;
+}
+
+.home-content button {
+    padding: 15px 20px;
+    border: none;
+    font-size: 16px;
+    border-radius: 5px;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.home-content .btn1 {
+    background: #8e7754;
+    color: #fff;
+}
+
+.home-content .btn2 {
+    background-color: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+
+}
+
+/* about section */
+#about {
+    padding: 40px 0;
+}
+
+#about .about-image {
+    width: 50%;
+    float: left;
+}
+
+#about .about-image img {
+    width: 80%;
+    margin-left: 40px;
+}
+
+#about .about-text {
+    width: 50%;
+    text-align: center;
+    float: right;
+    padding-top: 50px;
+}
+
+#about .about-text h2 {
+    padding-top: 30px;
+    color: #303030;
+    margin-bottom: 30px;
+}
+
+#about .about-text p {
+    color: #686868;
+    line-height: 1.86em;
+    margin-bottom: 20px;
+    font-family: sans-serif, monospace;
+}
+
+.about-text ul {
+    list-style: none;
+    float: left;
+}
+
+#about .about-text img {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    float: left;
+}
+
+.clr {
+    clear: both;
+}
+
+/* our-offer section */
+#our-offer {
+    height: auto;
+    padding: 40px 0;
+    background-color: #f8f8f8;
+}
+
+#our-offer .our-offer-image {
+    width: 50%;
+    float: right;
+}
+
+#our-offer .our-offer-image img {
+    width: 80%;
+    margin-left: 50px;
+}
+
+#our-offer .our-offer-text {
+    width: 50%;
+    text-align: center;
+    float: left;
+    margin-top: 50px;
+}
+
+.our-offer-text h2 {
+    color: #303030;
+    margin-bottom: 30px;
+}
+
+.our-offer-text p {
+    color: #686868;
+    line-height: 1.86em;
+    margin-bottom: 20px;
+    font-family: sans-serif, monospace;
+}
+
+/* gallery section */
+#gallery {
+    padding: 40px 0;
+    text-align: center;
+}
+
+#gallery h2 {
+    color: #303030;
+    margin-bottom: 30px;
+}
+
+#gallery p {
+    color: #686868;
+    line-height: 1.86em;
+    margin-bottom: 20px;
+    font-family: sans-serif, monospace;
+}
+
+#gallery .box {
+    width: 33%;
+    text-align: center;
+    float: left;
+}
+
+#gallery .box h4 {
+    margin: 10px 0 10px 0;
+}
+
+#gallery .box img {
+    width: 75%;
+}
+
+/* blog section */
+#blog {
+    padding: 40px 0;
+    background-color: #f8f8f8;
+}
+
+#blog .blog-text {
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+
+#blog .blog-text h2 {
+    color: #303030;
+    margin-bottom: 30px;
+}
+
+#blog .blog-text p {
+    color: #686868;
+    line-height: 1.86em;
+    margin-bottom: 20px;
+    font-family: sans-serif, monospace;
+}
+
+.blog-text .blog-list {
+    float: left;
+}
+
+.blog-list .specialp {
+    margin-right: 100px;
+}
+
+.blog-list img {
+    float: left;
+}
+
+.blog-list ul {
+    list-style: none;
+    margin-left: 50px;
+}
+
+#blog .blog-text img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+#blog .location {
+    width: 50%;
+    float: right;
+}
+
+
+.location iframe {
+    margin-left: 50px;
+}
+
+/* contact section */
+#contact {
+    padding-top: 40px 0;
+    background-color: #403d38;
+    text-align: center;
+}
+
+#contact h4 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #fff;
+    font-weight: 300;
+    margin-top: 40px;
+}
+
+#contact p {
+    font-size: 18px;
+    color: #969696;
+}
+
+#contact .contact-box {
+    width: 24%;
+    float: left;
+}
+
+.contact-details img {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    float: left;
+}
+
+.contact-box ul {
+    list-style: none;
+}
+
+.contact-box .why img {
+    width: 10%;
+    float: left;
+}
+
+.contact-box .open-hours img {
+    width: 10%;
+    float: left;
+}
+
+.contact-box ul li {
+    border-bottom: 1px solid #303030;
+    padding: 15px;
+    display: block;
+    color: #969696;
+}
+
+.contact-box .about-us p {
+    line-height: 1.86em;
+    margin-bottom: 20px;
+    font-family: sans-serif, monospace;
+}
+
+.contact-box .why p {
+    margin-right: 50px;
+}
+
+.contact-box .why ul li {
+    border-bottom: 1px solid #303030;
+    padding: 15px;
+    display: block;
+    color: #969696;
+}
+
+.contact-box .open-hours p {
+    margin-right: 50px;
+}
+
+.contact-box .open-hours ul li {
+    padding: 10px;
+}
+
+.contact-box ul li a {
+    text-decoration: none;
+    color: #969696;
+    line-height: 1.4;
+}
+
+/* footer */
+#footer {
+    text-align: center;
+    background-color: #353330;
+}
+
+.footer-content {
+    padding: 40px;
+}
+
+.footer-content .special {
+    width: 20%;
+}
+
+#footer p {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #969696;
+}
+
+
+#footer .imgs img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-left: 10px;
+}
